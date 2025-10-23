@@ -1,0 +1,145 @@
+body 
+{   
+    width: 80%;
+    max-width: 940px;
+
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Helvetica", "Lucida Grande", sans-serif;
+    color: #080808;
+    font-size: #3D3D3D;
+    line-height: 1.5;
+
+}
+
+.titulo
+{
+    padding: 10px;
+    background-color: rgb(93, 167, 99);
+    font-size: 32px;
+}
+
+.subtítulo
+{
+    border-bottom: 2px solid rgb(10, 10, 163);
+}
+
+figure{
+    max-width: 100%;
+    box-sizing: border-box;
+
+    margin: 30px;
+    padding: 15px;
+    text-align: center;
+    background-color: aliceblue;
+    border: 1px solid lightgray;
+}
+ 
+figcaption {
+    margin-top: 10px;
+}
+
+.matriz-empresa
+{
+width: 500px;
+margin-right: auto;
+margin-left: auto;
+}
+
+.criadores
+{
+    width: 275px;
+    float: right;
+}
+
+figure img
+{
+    width: 100%;
+}
+
+.contato__subtitulo{
+    display: inline;
+}
+
+.contato__info{
+    margin: 16px 0 24px;
+    padding: 32px;
+}
+
+.contato__secao {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 16px;
+}
+
+.contato__secao--telefone {
+    margin: 32px;
+}
+
+.contato__info {
+    margin: 16px 0 24px;
+    padding-left: 32px;
+}
+
+.contato__info-titulo 
+.contato__info-descriçao{
+    display: inline;
+}
+
+.contato__info-descriçao {
+    margin-left: 10px;
+}
+
+.rodape {
+    padding: 1.75em 0;
+    font-size: 1.1rem;
+}
+
+.rodape__logo {
+    width: 6em;
+}
+
+.rodape__copyright {
+    display: inline;
+    margin-left: 1em;
+}
+
+@media (max-width: 850px)
+{
+    .contato__secao {
+        display: block;
+        margin-left: 1em;
+    }
+}
+ @media (max-width: 622px) {
+    .criadores {
+        float: none;
+        margin: 0 auto;
+    }
+ }
+@media (max-media) {
+    .contato__subtitulo {
+        display: block;
+        margin-bottom: 0;
+    }
+    .contato__info {
+        padding-left: 5px;
+    }
+
+    .contato__info {
+        padding-left: 5px;
+        font-size: .92em;
+        border-left: 2px solid lightgoldenrodyellow;
+    }
+
+    .rodape {
+        font-size: .92em;
+    }
+}
+
+@media (max-width: 342px) {
+    .contato__info-descriçao {
+        display: block;
+        margin-left: 1em;
+    }
+}
